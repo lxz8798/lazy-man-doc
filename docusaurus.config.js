@@ -23,27 +23,27 @@ module.exports = {
           position: 'right',
           items: [
             {
-              to: 'vue',
+              to: 'frontend/vue',
               label: 'VUE FAMILY'
             },
             {
-              to: 'react',
+              to: 'frontend/react',
               label: 'REACT  /  REACT NATIVE'
             },
             {
-              to: 'js',
+              to: 'frontend/js',
               label: 'JAVASCRIPT  /  TYPESCRIPT'
             },
             {
-              to: 'd3js',
-              label: 'D3JS / OPENLAYERS / THREEJS'
-            },
-            {
-              to: 'css',
+              to: 'frontend/css',
               label: 'CSS  /  CSS3 / SASS'
             },
             {
-              to: 'html',
+              to: 'frontend/library',
+              label: 'D3JS / OPENLAYERS / THREEJS'
+            },
+            {
+              to: 'frontend/html',
               label: 'HTML / HTML5'
             }
           ]
@@ -213,9 +213,12 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
   ],
+  plugins: [
+    'docusaurus-plugin-sass',
+  ]
 };

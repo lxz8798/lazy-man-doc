@@ -5,12 +5,12 @@ import clsx from "clsx";
 const HeaderView: React.FC<{}> = () => {
 	const headScrollChangeColor = () => {
 		{
-			if(document.scrollingElement.scrollTop <= 1) {
-				document.documentElement.style.setProperty('--navbar-color', '#75c1d8');
+			if(document.scrollingElement.scrollTop <= 100) {
+				document.documentElement.style.setProperty('--navbar-color', '#1abc9c');
 				document.documentElement.style.setProperty('--nav-text-color', 'white');
 			} else {
 				document.documentElement.style.setProperty('--navbar-color', 'white');
-				document.documentElement.style.setProperty('--nav-text-color', '#75c1d8');
+				document.documentElement.style.setProperty('--nav-text-color', '#1abc9c');
 			}
 		}
 	};
