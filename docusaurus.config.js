@@ -23,28 +23,28 @@ module.exports = {
           position: 'right',
           items: [
             {
-              to: 'frontend/vue',
-              label: 'VUE FAMILY'
+                to: 'frontend/react',
+                label: 'REACT FAMILY  /  RN'
             },
             {
-              to: 'frontend/react',
-              label: 'REACT  /  REACT NATIVE'
+              to: 'frontend/vue',
+              label: 'VUE FAMILY'
             },
             {
               to: 'frontend/js',
               label: 'JAVASCRIPT  /  TYPESCRIPT'
             },
             {
-              to: 'frontend/css',
+              to: 'frontend/web',
+              label: 'JAVASCRIPT  /  TYPESCRIPT'
+            },
+            {
+              to: 'frontend/h5',
               label: 'CSS  /  CSS3 / SASS'
             },
             {
-              to: 'frontend/library',
+              to: 'frontend/css',
               label: 'D3JS / OPENLAYERS / THREEJS'
-            },
-            {
-              to: 'frontend/html',
-              label: 'HTML / HTML5'
             }
           ]
         },
@@ -54,20 +54,16 @@ module.exports = {
           position: 'right',
           items: [
             {
-              to: 'eggjs',
-              label: 'EGGJS'
-            },
-            {
-              to: 'nodejs',
+              to: 'backend/node',
               label: 'NODEJS'
             },
             {
-              to: 'python',
-              label: 'PYTHON'
+              to: 'backend/egg',
+              label: 'EGGJS'
             },
             {
-              to: 'other',
-              label: 'OTHER'
+              to: 'backend/python',
+              label: 'PYTHON'
             }
           ]
         },
@@ -77,62 +73,58 @@ module.exports = {
           position: 'right',
           items: [
             {
-              to: 'ps',
-              label: 'ADOBE PHOTOSHOP'
+              to: 'designer/web',
+              label: 'PHOTOSHOP'
             },
             {
-              to: 'ai',
-              label: 'ADOBE ILLUSTRATOR'
+              to: 'designer/h5',
+              label: 'PHOTOSHOP'
             },
             {
-              to: 'pr',
-              label: 'ADOBE PREMIERE'
+              to: 'designer/ps',
+              label: 'PHOTOSHOP'
             },
             {
-              to: 'ae',
-              label: 'AFTER EFFECT'
+              to: 'designer/ai',
+              label: 'ILLUSTRATOR'
             },
             {
-              to: 'c4d',
-              label: 'C4D'
+              to: 'designer/3d',
+              label: 'C4D / MAYA'
             }
           ]
         },
         {
-          to: 'cg',
-          label: 'PHOTO / PAINT',
+          to: 'hobby',
+          label: 'MY HOBBY',
           position: 'right',
           items: [
             {
-              to: 'photos',
-              label: 'PHOTO COLLECTION'
+              to: 'hobby/cg',
+              label: 'COMPUTED GRAPHICS'
             },
             {
-              to: 'painter',
-              label: 'PAINTER WORKS'
-            }
+              to: 'hobby/clip',
+              label: 'VIDEO CLIP'
+            },
+            {
+              to: 'hobby/photography',
+              label: 'PHOTOGRAPHY'
+            },
           ]
         },
         {
-          to: 'work',
-          label: 'WORK',
+          to: 'project',
+          label: 'PROJECT',
           position: 'right',
           items: [
             {
-              to: 'web',
-              label: 'WEB'
+              to: 'project/myhome',
+              label: 'MY HOME V1 ~ V4'
             },
             {
-              to: 'h5',
-              label: 'H5'
-            },
-            {
-              to: 'rn',
-              label: 'RN'
-            },
-            {
-              to: 'uniapp',
-              label: 'UNIAPP'
+              to: 'project/mywork',
+              label: 'WEB / H5 / RN / UNIAPP'
             }
           ]
         }
@@ -142,7 +134,7 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'source',
+          title: 'SOURCE',
           items: [
             {
               label: 'github',
@@ -155,7 +147,7 @@ module.exports = {
           ],
         },
         {
-          title: 'About me',
+          title: 'ABOUT ME',
           items: [
             {
               label: 'Stack Overflow',
@@ -172,22 +164,22 @@ module.exports = {
           ],
         },
         {
-          title: 'home',
+          title: 'OTHER HOME',
           items: [
             {
-              label: 'v1',
+              label: 'v1-17年',
               to: 'http://v1.lazy-studio.com',
             },
             {
-              label: 'v2',
+              label: 'v2-18年',
               to: 'http://v2.lazy-studio.com',
             },
             {
-              label: 'v3',
+              label: 'v3-19年',
               to: 'http://v3.lazy-studio.com',
             },
             {
-              label: 'v4',
+              label: 'v4-21年',
               to: 'http://v4.lazy-studio.com',
             }
           ],
