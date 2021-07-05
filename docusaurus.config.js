@@ -74,19 +74,19 @@ module.exports = {
           items: [
             {
               to: 'designer/web',
-              label: 'PHOTOSHOP'
+              label: 'COMPUTED WEB'
             },
             {
               to: 'designer/h5',
-              label: 'PHOTOSHOP'
+              label: 'MOBILE H5'
             },
             {
               to: 'designer/ps',
-              label: 'PHOTOSHOP'
+              label: 'ADOBE PHOTOSHOP'
             },
             {
               to: 'designer/ai',
-              label: 'ILLUSTRATOR'
+              label: 'ADOBE ILLUSTRATOR'
             },
             {
               to: 'designer/3d',
