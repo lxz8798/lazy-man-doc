@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 
-import HeaderView from '../../components/headerView/';
+import HeaderView from '../../components/fristScreen/';
 
 import style from './style.module.css';
 
 interface Props {
 }
 
-const Project: React.FC<{}> = () => {
+const Hobby: React.FC<{}> = () => {
 	return(
 		<Layout>
 			<HeaderView></HeaderView>
@@ -16,4 +16,4 @@ const Project: React.FC<{}> = () => {
 	)
 }
 
-export default Project;
+export default Hobby;

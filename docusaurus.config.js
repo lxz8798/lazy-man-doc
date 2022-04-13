@@ -36,15 +36,15 @@ module.exports = {
             },
             {
               to: 'frontend/web',
-              label: 'JAVASCRIPT  /  TYPESCRIPT'
-            },
-            {
-              to: 'frontend/h5',
-              label: 'CSS  /  CSS3 / SASS'
+              label: 'WEB / H5 / MIXIN DEVELOPMENT'
             },
             {
               to: 'frontend/css',
-              label: 'D3JS / OPENLAYERS / THREEJS'
+              label: 'CSS  /  CSS3 / SASS'
+            },
+            {
+              to: 'frontend/library',
+              label: 'D3JS / OPENLAYERS / THREEJS / OTHER'
             }
           ]
         },

@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import Layout from '@theme/Layout';
+
+import Style from 'style.module.css';
 
 const VueView: React.FC<{}> = () => {
 	return (
-		<div>
-			这里是Vue视图
-		</div>
+		<Layout>
+			<section className="page_view_box"></section>
+		</Layout>
 	)
 }
 

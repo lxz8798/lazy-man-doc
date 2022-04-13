@@ -7,6 +7,9 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  //--designWidth: 750;
+  //font-size: calc(100vw / var(--designWidth));
+
   --ifm-color-primary: #1abc9c;
   --ifm-color-primary-dark: #17a98c;
   --ifm-color-primary-darker: #16a085;
@@ -30,8 +33,7 @@ html {
 }
 
 #__docusaurus {
-  min-height: unset;
-  height: 600px;
+  height: inherit;
 }
 
 .navbar {
@@ -46,3 +48,9 @@ html {
 .navbar .dropdown__link {
   font-size: 12px;
 }
+
+/*Public Style*/
+//.page_view_box {
+//  width: inherit;
+//  height: 100%;
+//}
